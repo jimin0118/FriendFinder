@@ -1,0 +1,58 @@
+
+.card-img-overlay {
+  text-align: center; 
+  font-weight: bold;
+}
+
+body {
+  background-image: url('https://i.imgur.com/0Dzm97N.png'); 
+  height: 100%; 
+  margin: 0;
+}
+
+
+
+/* Sliders */
+input[type=range]::-webkit-slider-thumb {
+  background-color:  grey;
+}
+input[type=range]::-moz-range-thumb {
+  background-color:  grey;
+}
+input[type=range]::-ms-thumb {
+  background-color: grey;
+}
+
+input[type=range] + .thumb {
+  background-color: grey;
+}
+input[type=range] + .thumb.active .value {
+  color: floralwhite;
+}
+
+
+/* Text input */
+.input-field input:focus + label {
+  color: black !important;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #4caf50 !important;
+  box-shadow: 0 1px 0 0 #4caf50 !important;
+}
+
+form{
+  margin-bottom: 30px;
+}
+
+#description{
+  font-family: 'Eczar', serif;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px){
+  #questions{
+    padding: 0 15%;
+  }
+}

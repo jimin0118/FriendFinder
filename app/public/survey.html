@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="row">
+                <div id="name">
+                    <div class="input-field col s12 m6 l4">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s12 m6 l4">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div id="pic">
+                    <div class="input-field col s12 m6 l4">
+                        <input id="picture_url" type="text" class="validate">
+                        <label for="picture_url">Picture Url</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="questions">
+            <p id="description">Anwer Survey Questions.</p>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You feel more energetic after traveling.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q1" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You prefer malls then discount store.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q2" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"> You believe aliens exist.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q3" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You love to sing in the shower.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q4" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You enjoy going to party and concert.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q5" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You love to talk about art.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q6" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You are more logical than emotional.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q7" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You love to stay outside then inside.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q8" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You love to cook my yourself.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q9" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+            <form action="#">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">You agree to keep the peace.("5" is the most strongly Agree)</label>
+                    <p class="range-field">
+                        <input class="question" id="q10" type="range" min="0" max="5" />
+                    </p>
+            </form>
+
+
+            <button class="btn waves-effect waves-light purple" type="submit" name="action" id="submit-btn">Send
+                <i class="material-icons right">this</i>
+            </button>
+
+            </div>
+            </div>
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+            <script src="./assets/js/test.js"></script>
+</body>
+
+</html>
